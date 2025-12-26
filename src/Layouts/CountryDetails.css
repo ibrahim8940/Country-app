@@ -1,29 +1,19 @@
-/* Country Details Page */
 .country-details {
-  max-width: 1100px;
+  display: grid;
+  grid-template-columns: 420px 500px;
+  gap: 3rem;
+
+  justify-content: center;
   margin: 2rem auto;
   padding: 2rem;
-  display: grid;
-  grid-template-columns: 1fr 1.2fr;
-  gap: 3rem;
-  background: #ffffff;
-  border-radius: 16px;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+  border: 0.5px solid rgb(250, 249, 249);
+  border-radius: 20px;
 }
 
-/* Back Button */
+/* Back button stays full width */
 .country-details a {
   grid-column: 1 / -1;
-  display: inline-block;
-  width: fit-content;
-  padding: 0.6rem 1.2rem;
   margin-bottom: 1rem;
-  background: #f4f6f8;
-  border-radius: 8px;
-  font-weight: 500;
-  color: #333;
-  text-decoration: none;
-  transition: all 0.3s ease;
 }
 
 .country-details a:hover {
@@ -31,9 +21,42 @@
   transform: translateX(-4px);
 }
 
-/* Flag Image */
-.country-details img {
+/* RIGHT DETAILS */
+.details {
+  grid-column: 2;
+  display: flex;
+  margin: 8rem;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.details h1 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.details p {
+  font-size: 0.95rem;
+  color: #fff;
+  margin-bottom: 0.6rem;
+  line-height: 1.6;
+}
+
+.details strong {
+  color: #fff;
+}
+
+/* FLAG — LEFT */
+.flag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flag img {
   width: 100%;
+  max-width: 420px; /* prevent oversized flag */
   max-height: 320px;
   object-fit: contain;
   border-radius: 12px;
@@ -41,58 +64,28 @@
   background: #fafafa;
 }
 
-/* Country Name */
-.country-details h1 {
-  font-size: 2.2rem;
-  margin-bottom: 1rem;
-  color: #111;
-}
-
-/* Info Text */
-.country-details p {
-  font-size: 0.95rem;
-  color: #444;
-  margin-bottom: 0.6rem;
-  line-height: 1.6;
-}
-
-.country-details strong {
-  color: #111;
-}
-
-/* Info Container */
-.country-details > div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-/* Responsive Design */
+/* RESPONSIVE */
 @media (max-width: 900px) {
   .country-details {
     grid-template-columns: 1fr;
-    padding: 1.5rem;
+    text-align: center;
   }
 
-  .country-details img {
+  .details {
+    align-items: center;
+  }
+
+  .flag img {
     max-height: 260px;
-  }
-
-  .country-details h1 {
-    font-size: 1.9rem;
   }
 }
 
 @media (max-width: 500px) {
-  .country-details {
-    padding: 1.2rem;
-  }
-
-  .country-details h1 {
+  .details h1 {
     font-size: 1.6rem;
   }
 
-  .country-details p {
+  .details p {
     font-size: 0.9rem;
   }
 }
