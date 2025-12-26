@@ -1,0 +1,15 @@
+.message {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 80px 20px;
+}
+.message h1 {
+  margin-bottom: 10px;
+}
+.link:hover {
+  color: #fff;
+}

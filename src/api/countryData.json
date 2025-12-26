@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Pakistan",
+    "capital": "Islamabad",
+    "population": 241000000,
+    "interestingFact": "Pakistan has the world’s second-highest mountain, K2, and the largest irrigation system on Earth."
+  },
+  {
+    "id": 2,
+    "name": "United States",
+    "capital": "Washington, D.C.",
+    "population": 339000000,
+    "interestingFact": "The U.S. has no official national language and is one of the most culturally diverse countries."
+  },
+  {
+    "id": 3,
+    "name": "China",
+    "capital": "Beijing",
+    "population": 1420000000,
+    "interestingFact": "China is home to the Great Wall, the longest man-made structure ever built."
+  },
+  {
+    "id": 4,
+    "name": "India",
+    "capital": "New Delhi",
+    "population": 1430000000,
+    "interestingFact": "India is the world’s largest democracy and has over 1,600 spoken languages."
+  },
+  {
+    "id": 5,
+    "name": "Japan",
+    "capital": "Tokyo",
+    "population": 125000000,
+    "interestingFact": "Japan has more than 6,800 islands and is famous for its advanced technology and traditions."
+  },
+  {
+    "id": 6,
+    "name": "Germany",
+    "capital": "Berlin",
+    "population": 84000000,
+    "interestingFact": "Germany is known for inventing the automobile and having over 1,500 varieties of sausage."
+  },
+  {
+    "id": 7,
+    "name": "France",
+    "capital": "Paris",
+    "population": 65000000,
+    "interestingFact": "France is the most visited country in the world by tourists."
+  },
+  {
+    "id": 8,
+    "name": "United Kingdom",
+    "capital": "London",
+    "population": 67000000,
+    "interestingFact": "London has over 170 museums and the UK has no single written constitution."
+  },
+  {
+    "id": 9,
+    "name": "Brazil",
+    "capital": "Brasília",
+    "population": 216000000,
+    "interestingFact": "Brazil is home to the Amazon Rainforest, producing about 20% of the world’s oxygen."
+  },
+  {
+    "id": 10,
+    "name": "Australia",
+    "capital": "Canberra",
+    "population": 26000000,
+    "interestingFact": "Australia has more kangaroos than humans and the Great Barrier Reef is visible from space."
+  }
+]

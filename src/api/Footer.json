@@ -1,0 +1,41 @@
+{
+  "brand": {
+    "name": "WorldAtlas",
+    "description": "Explore countries, cultures, and global data in one place."
+  },
+  "links": {
+    "company": [
+      { "id": 1, "label": "About Us", "path": "/about" },
+      { "id": 2, "label": "Contact", "path": "/contact" },
+      { "id": 3, "label": "Countries", "path": "/country" }
+    ],
+    "resources": [
+      { "id": 1, "label": "API Source", "url": "https://restcountries.com" },
+      { "id": 2, "label": "Documentation", "url": "#" },
+      { "id": 3, "label": "Help Center", "url": "#" }
+    ]
+  },
+  "socials": [
+    {
+      "id": 1,
+      "name": "GitHub",
+      "icon": "github",
+      "url": "https://github.com/"
+    },
+    {
+      "id": 2,
+      "name": "LinkedIn",
+      "icon": "linkedin",
+      "url": "https://linkedin.com/"
+    },
+    {
+      "id": 3,
+      "name": "Twitter",
+      "icon": "twitter",
+      "url": "https://twitter.com/"
+    }
+  ],
+  "copyright": {
+    "text": "© 2025 WorldAtlas. All rights reserved."
+  }
+}
