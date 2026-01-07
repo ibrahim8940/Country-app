@@ -1,5 +1,5 @@
 import React from "react";
-import "./HeroSection.css"
+import "./HeroSection.css";
 import { FaLongArrowAltRight } from "react-icons/fa";
 
 const HeroSection = () => {
@@ -19,7 +19,7 @@ const HeroSection = () => {
           </button>
         </div>
         <div className="hero-image">
-          <img src="/images/OIP.jpg" alt="world image" />
+          <img src="./images/OIP.jpg" alt="world image" />
         </div>
       </div>
     </main>

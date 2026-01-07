@@ -1,5 +1,5 @@
 // src/routes/router.jsx
-import { createBrowserRouter } from "react-router-dom";
+import { createHashRouter } from "react-router-dom";
 import MainLayout from "../layouts/MainLayout";
 
 import Home from "../pages/Home";
@@ -9,7 +9,7 @@ import Country from "../pages/Country";
 import NotFound from "../pages/NotFound";
 import CoutryDetails from "../Layouts/CoutryDetails";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     element: <MainLayout />,
     errorElement: <NotFound />,
